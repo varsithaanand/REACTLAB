@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-function App() {
+function Form() {
   const[name,setName]=useState("")
   const[email,setEmail]=useState("")
   const[password,setPassword]=useState("") 
@@ -41,5 +41,6 @@ function App() {
   )
 }
 
-export default App
+export default Form
+
 
